@@ -58,8 +58,7 @@
 		06C153FF28B6126D00BE5A8B /* Delegate */ = {
 			isa = PBXGroup;
 			children = (
-				06C1540028B6126D00BE5A8B /* AppDelegate.swift */,
-				06C1540228B6126D00BE5A8B /* SceneDelegate.swift */,
+				A60DF3DC28BBD4B60021980F /* sistemFiles */,
 				06C1540428B6126D00BE5A8B /* FirstViewController.swift */,
 				06C1541428B614C300BE5A8B /* SecondViewController.swift */,
 				06C1540628B6126D00BE5A8B /* Main.storyboard */,
@@ -68,6 +67,15 @@
 				06C1540E28B6126E00BE5A8B /* Info.plist */,
 			);
 			path = Delegate;
+			sourceTree = "<group>";
+		};
+		A60DF3DC28BBD4B60021980F /* sistemFiles */ = {
+			isa = PBXGroup;
+			children = (
+				06C1540028B6126D00BE5A8B /* AppDelegate.swift */,
+				06C1540228B6126D00BE5A8B /* SceneDelegate.swift */,
+			);
+			path = sistemFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,14 +306,16 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Pavel-Shirokiy.Delegate";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -328,14 +338,16 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Pavel-Shirokiy.Delegate";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
